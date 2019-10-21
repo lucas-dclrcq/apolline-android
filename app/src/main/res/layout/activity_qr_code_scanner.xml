@@ -6,4 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".utils.QrCodeScanner">
 
+    <Button
+        android:id="@+id/btn_scan_qr"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Scan QR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:id="@+id/et_value_qr"
+        android:layout_margin="30dp"
+        android:padding="5dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        />
+
 </android.support.constraint.ConstraintLayout>
