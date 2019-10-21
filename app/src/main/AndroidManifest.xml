@@ -31,7 +31,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".utils.QrCodeScanner"></activity>
+        <activity android:name=".view.activity.QrCodeScanner"></activity>
 
         <uses-library
             android:name="com.android.future.usb.accessory"

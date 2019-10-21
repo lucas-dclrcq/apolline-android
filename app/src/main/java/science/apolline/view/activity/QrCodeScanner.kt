@@ -1,4 +1,4 @@
-package science.apolline.utils
+package science.apolline.view.activity
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
